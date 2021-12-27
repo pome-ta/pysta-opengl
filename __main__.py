@@ -16,7 +16,7 @@ class ViewController(ui.View):
   def setupGL(self):
     EAGLContext = ObjCClass('EAGLContext').alloc()
     context = EAGLContext.initWithAPI_(3)
-    pdbg.state(context.API())
+    pdbg.state(context)
 
 
 if __name__ == '__main__':
